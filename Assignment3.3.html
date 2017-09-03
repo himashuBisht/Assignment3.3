@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>3.3</title>
+  <meta charset="UTF-8">
+  <style>
+  .dropbtn {
+    background-color:bisque;
+    color: Black;
+    padding:15pt;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:none;
+  }
+
+  .dropdown {
+    position:initial;
+    display:inherit;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:dimgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 4px 0px rgba(60,0,90,.2);
+
+  }
+
+.dropdown-content a {
+    color:darkgray;
+    padding: 10px 180px;
+    text-decoration:initial;
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    width: 560px;
+}
+
+.dropdown-content a:hover {background-color:coral}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+button{
+    width: 400px;
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Presidential Profile</button>
+  <div class="dropdown-content">
+    <a href="#">Abraham Lincoln</a>
+    <a href="#">Barak Obama</a>
+    <a href="#">Donald Trump</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
